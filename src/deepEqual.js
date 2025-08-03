@@ -1,8 +1,4 @@
-export function deepEqual(
-  lhs: any,
-  rhs: any,
-  path: string = "$"
-): true | string {
+function deepEqual(lhs, rhs, path = "$") {
   if (lhs === rhs) {
     return true;
   }
@@ -51,3 +47,5 @@ export function deepEqual(
 
   return path;
 }
+
+module.exports = { deepEqual };

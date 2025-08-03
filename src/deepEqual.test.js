@@ -1,4 +1,4 @@
-import { deepEqual } from "./deepEqual";
+const { deepEqual } = require("./deepEqual");
 
 describe("deepEqual function", () => {
   test("two nulls are equal", () => {
