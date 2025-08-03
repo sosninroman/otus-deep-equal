@@ -1,6 +1,4 @@
-import type { Config } from "jest";
-
-const config: Config = {
+const config = {
   testEnvironment: "node",
   testMatch: ["**/?*.test.js"],
   moduleFileExtensions: ["js", "json", "node"],
